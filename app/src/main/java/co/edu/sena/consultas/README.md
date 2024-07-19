@@ -1,14 +1,14 @@
 Variables
 
 Variables de Valor (`val`)
-En Kotlin, `val` se utiliza para declarar variables cuyo valor no puede ser modificado después de ser asignado. Estas son conocidas como variables inmutables. Por ejemplo, `name` es una variable de valor que se inicializa con "Esteban" y se imprime en la consola. Usar `val` es una buena práctica cuando se desea garantizar la inmutabilidad, mejorando así la legibilidad y seguridad del código.
+En Kotlin, `val` se utiliza para declarar variables cuyo valor no puede ser modificado después de ser asignado. Por ejemplo, `name` es una variable de valor que se inicializa con "Esteban" y se imprime en la consola. Usar `val` es una buena práctica cuando se desea garantizar la no modificacion, mejorando así la legibilidad y seguridad del código.
 
 val name = "Esteban" // Variable cuyo valor no puede cambiar
 println(name)
 
 
 Variables de Referencia (`var`)
-Las variables declaradas con `var` son mutables, es decir, su valor puede cambiar durante la ejecución del programa. En el ejemplo, `age` se inicializa con el valor 15, se imprime, se cambia a 26 y se vuelve a imprimir. Usar `var` es útil cuando se necesita modificar el valor de una variable, pero se debe usar con cuidado para evitar efectos secundarios no deseados.
+Las variables declaradas con `var` son modificables, es decir, su valor puede cambiar durante la ejecución del programa. En el ejemplo, `age` se inicializa con el valor 15, se imprime, se cambia a 26 y se vuelve a imprimir. Usar `var` es útil cuando se necesita modificar el valor de una variable, pero se debe usar con cuidado para evitar efectos secundarios no deseados.
 
 var age = 15 // Variable cuyo valor puede cambiar
 println(age)

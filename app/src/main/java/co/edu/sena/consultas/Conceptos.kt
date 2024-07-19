@@ -1,4 +1,4 @@
-package co.edu.sena
+package co.edu.sena.consultas
 
 
 fun main() {
@@ -86,12 +86,12 @@ class Constants {
 // Constantes a nivel de objeto top-level (fuera de cualquier clase)
 // A estas constantes se puede acceder de manera global y tiene que estar fuera de don de se declaran las clases u objetos
 const val MAX_HEIGHT: Int = 200
-const val GOLDEN_RATIO: Float = 1.6180339887f
+const val GOLDEN_RATIO: Float = 1.618034f
 const val WELCOME_MESSAGE: String = "Welcome to Kotlin"
 const val FIRST_LETTER: Char = 'K'
 const val IS_ENABLED: Boolean = false
 
-fun main() {
+fun main2() {
     // Uso de constantes a nivel de objeto (companion object)
     println(Constants.MAX_AGE) // Se llaman las constantes ingresando el nombre de la clase y depues la constante que deseas
     println(Constants.PI)
@@ -108,7 +108,7 @@ fun main() {
     println(IS_ENABLED)
 }
 
-fun main() {
+fun master() {
     // Variables Opcionales y Nulas
 
     // 1. Variables Opcionales (nullable) Estas pueden see nulas
@@ -159,6 +159,3 @@ fun main() {
         println("nullableString is null") // Imprime un mensaje si nullableString es null
     }
 }
-
-
-
